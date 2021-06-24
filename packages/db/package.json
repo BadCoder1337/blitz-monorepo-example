@@ -9,7 +9,7 @@
     "schema": "./src/schema.prisma"
   },
   "scripts": {
-    "build": "tsc -p . && yarn prisma:generate",
+    "build": "yarn prisma:generate && tsc -p . &&",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev"
   },
