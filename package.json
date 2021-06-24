@@ -9,5 +9,12 @@
   "private": true,
   "devDependencies": {
     "typescript": "^4.3.4"
+  },
+  "scripts": {
+    "build": "yarn build:db && yarn build:site",
+    "build:db": "cd ./packages/db && yarn build",
+    "build:site": "cd ./packages/site && yarn build",
+    "run:site": "cd ./packages/site && yarn start",
+    "run:bot": "cd ./packages/bot && yarn start"
   }
 }
