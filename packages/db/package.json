@@ -2,8 +2,7 @@
   "name": "@root/db",
   "type": "module",
   "dependencies": {
-    "@prisma/client": "^2.25.0",
-    "blitz": "^0.38.1"
+    "@prisma/client": "^2.25.0"
   },
   "prisma": {
     "schema": "./src/schema.prisma"
